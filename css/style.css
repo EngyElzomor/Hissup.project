@@ -1,0 +1,102 @@
+/* Home page starts*/
+nav
+{
+    background-color: white;
+}
+.nav-item a
+{
+    margin: 3px;
+    color: black;
+    font-weight: bold;
+}
+.navbar-nav .nav-link:hover
+{
+    color: #ff9222;
+}
+.nav-item button
+{
+    background: #573abd;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+header
+{
+    background-image: url(../images/employed-personal-trainer.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.layer
+{
+    width: 100%;
+    background-color: rgba(255, 146, 34, 0.95);
+}
+header h1
+{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+header p
+{
+    margin-top: 20px;
+}
+.ourvideo
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+.ourvideo .far
+{
+    font-size: 30px;
+}
+/* Home page ends*/
+
+/*Services start*/
+.services-item
+{
+    border: solid 2px #fff2e5;
+}
+.services-item:hover
+{
+    background-color: #fff2e5;
+}
+.services-item:hover .services-icon
+{
+    background-color: #fff;
+}
+
+.services-icon
+{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #fff2e5;
+}
+.services-icon .fas
+{
+    font-size: 35px;
+    color: #ff9222;
+}
+/*Services end*/
+
+/*contact start*/
+.contactus-inner
+{
+    background-color: rgb(87, 58, 189);
+}
+.contactus input
+{
+    border-radius: 10px;
+}
+.contactus textarea
+{
+    border-radius: 10px;
+}
+.contactus button
+{
+    background: #ff9222;
+    color: white;
+    border-radius: 30px;
+}
+/*contact end*/
