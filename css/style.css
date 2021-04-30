@@ -7,42 +7,142 @@
 body{
     font-family: Roboto, sans-serif;
 }
-.latestBlog{
+footer{   
+    background-color:#222222;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;   
 }
-.latestBlog h1{
-    font-size: 48px;
-    font-weight: 700;
-    font-family: Raleway, sans-serif;
-}  
-.latestBlog .circleline{
-    width: 70px;
-    margin: auto;
+footer .row .content{
+    color: white;  
 }
-.latestBlog  img{
-    width: 100%;
+footer .row .social .circle{
+    width: 35px; 
+    height: 35px;
+    background-color: #573ABD;
+    margin-left: 8px;
 }
-.latestBlog  .photo{
-    border-radius: 50%;
-} 
-.latestBlog  .dis h4 a{
-    font-family: Raleway, sans-serif;
-    color:black;
+footer .row .social a i{
+     
+    font-size: 15px;
+    color: white;
+   
+}
+footer .row .social .circle:hover{
+   
+    background-color: #DA7E20;
+    transition: 1s ;
+}
+footer .contact .head{
+    padding-bottom: 25px;
+}
+footer .contact .head h2{
     font-size: 20px;
-    text-decoration: none;
     font-weight: 700;
+    padding-bottom: 20px;
+    color: white;
+   position: relative;
 }
-.latestBlog  .dis h4 a:hover{
-    color:  #DA7E20;
-    transition: .8s;
-}
-.latestBlog  .border {
-    position: relative;
-}
-.latestBlog  .border .read{
+footer .contact .head h2::after {
+    content: "";
+    background-image: url(../lmg/circle_left.png);
     position: absolute;
-    right: 20px;
+    bottom: 0px;
+    left: 0px;
+    width:75px;
+    height: 10px;   
 }
-.latestBlog  .border .read a{
-    color:#DA7E20 ;
-    text-decoration: underline;
+footer .contact ul li{
+    list-style: none;
+    padding: 8px 0;
+}
+footer .contact ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer .contact ul li a:hover{
+    color:  #DA7E20;
+    font-weight: 700;
+    padding-left: 5px;
+    transition: 1s;
+}
+footer .services .head{
+    padding-bottom: 25px;
+}
+footer .services .head h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: white;
+   position: relative;
+}
+footer .services .head h2::after {
+    content: "";
+    background-image: url(../lmg/circle_left.png);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 80px;
+    height: 10px;
+}
+footer .services ul li{
+    list-style: none;
+    padding: 8px 0;
+}
+footer .services ul li a{
+    text-decoration: none;
+    color: white; 
+}
+footer .services ul li a:hover{
+    color:  #DA7E20;
+    font-weight: 700;
+    padding-left: 5px;
+    transition: 1s;
+}
+footer .location{
+    background-color: #573ABD;
+    height: 65%;
+    box-sizing: border-box;
+}
+footer .location .file{
+   width: 85%;
+
+}   
+footer .location .circle{
+    width: 40px;
+    height: 40px;
+    background-color: #DA7E20;
+    color: white;
+    margin-right: 20px;
+    
+}
+footer .location .information{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+   
+   
+}
+footer .location .information a{
+    text-decoration: none;
+    color: white;
+}
+footer .location .information a:hover{
+    color: #DA7E20;
+    transition: .6s;
+}
+footer .footer-copyright{
+    color: white;
+    font-weight: 700;
+    background-color:  #DA7E20;
+}
+@media screen and (max-width :1200px) {
+    footer .location{
+        height: 100%;
+        padding: 20px 0;
+    }
+    footer .row{
+        padding: 15px 20px 50px 20px;
+    }
+
+    
 }
