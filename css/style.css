@@ -1,53 +1,30 @@
-/* Home page starts*/
-nav
+
+
+/*Services start*/
+.services-item
 {
-    background-color: white;
+    border: solid 2px #fff2e5;
 }
-.nav-item a
+.services-item:hover
 {
-    margin: 3px;
-    color: black;
-    font-weight: bold;
+    background-color: #fff2e5;
 }
-.navbar-nav .nav-link:hover
+.services-item:hover .services-icon
 {
+    background-color: #fff;
+}
+
+.services-icon
+{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #fff2e5;
+}
+.services-icon .fas
+{
+    font-size: 35px;
     color: #ff9222;
 }
-.nav-item button
-{
-    background: #573abd;
-    color: white;
-    font-weight: bold;
-    padding: 5px 10px;
-}
-header
-{
-    background-image: url(../images/employed-personal-trainer.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-.layer
-{
-    width: 100%;
-    background-color: rgba(255, 146, 34, 0.95);
-}
-header h1
-{
-    font-size: 70px;
-    font-weight: bold;
-    margin-top: 30px;
-}
-header p
-{
-    margin-top: 20px;
-}
-.ourvideo
-{
-    font-size: 20px;
-    cursor: pointer;
-}
-.ourvideo .far
-{
-    font-size: 30px;
-}
-/* Home page ends*/
+/*Services end*/
+
