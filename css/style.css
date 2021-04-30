@@ -1,0 +1,75 @@
+/*Start Section Supplement-Packages*/
+.supplementPackages
+{
+    background: #573abd;
+    padding-top: 70px;
+}
+.supplementPackages h2
+{
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.basic-container .img1
+{
+    width: 25%;
+}
+.basic-container h3
+{
+    border-bottom: 2px solid #ececec ;
+}
+.price-count h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #ff9222;
+}
+.price-count span
+{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.basic-container
+{
+    border-color: rgb(236, 236, 236);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(255, 251, 246);
+}
+.pricing-body li {
+    color: #62605c;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:   'Roboto',sans-serif;
+}
+.img3 
+{
+    width: 15%;
+    height: 82px;
+}
+.pricing-btn .btn
+{
+    border-radius: 30px;
+    background-color: #573abd;
+    padding: 20px 35px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.pricing-btn .btn:hover
+{
+    background-color: #212529;
+}
+.pricing-btn .btn2
+{
+    border-radius: 30px;
+    background-color: #ff9222;
+    padding: 20px 35px;
+    color: #fff;
+    border-color: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+/*End Section Supplement-Packages*/
