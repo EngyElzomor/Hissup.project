@@ -1,30 +1,22 @@
 
 
-/*Services start*/
-.services-item
+/*contact start*/
+.contactus-inner
 {
-    border: solid 2px #fff2e5;
+    background-color: rgb(87, 58, 189);
 }
-.services-item:hover
+.contactus input
 {
-    background-color: #fff2e5;
+    border-radius: 10px;
 }
-.services-item:hover .services-icon
+.contactus textarea
 {
-    background-color: #fff;
+    border-radius: 10px;
 }
-
-.services-icon
+.contactus button
 {
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-    background-color: #fff2e5;
+    background: #ff9222;
+    color: white;
+    border-radius: 30px;
 }
-.services-icon .fas
-{
-    font-size: 35px;
-    color: #ff9222;
-}
-/*Services end*/
-
+/*contact end*/
