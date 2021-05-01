@@ -1,4 +1,5 @@
 
+
 .Product-Gallery .active-btn
 {
     background: #ff9222;
@@ -34,3 +35,257 @@
     outline: none;
   
 }
+=======
+#Ingredients-Facts h2, h3{
+    font-family: 'Raleway', sans-serif;
+    color: #181E23;
+    font-weight: 700;
+}
+#Ingredients-Facts p{
+    font-family: 'Roboto', sans-serif;
+}
+#what-our-clients-sayes h2, h3{
+    font-family: 'Raleway', sans-serif;
+    color: #181E23;
+    font-weight: 700;
+}
+#what-our-clients-sayes p{
+    font-family: 'Roboto', sans-serif;
+}
+#Ingredients-Facts .title h2{
+    font-size: 48px;
+}
+#Ingredients-Facts button{
+    border: none;
+    background-color: transparent;
+    
+}
+#Ingredients-Facts .ingredient{
+    background-color: #f8f8f8;
+}
+#Ingredients-Facts .ingredient h3{
+    font-size: 20px;
+}
+
+#Ingredients-Facts .icon{
+    width:30px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ff9222;
+}
+
+/* what-our-clients-sayes */
+#what-our-clients-sayes{
+    background-image: url(../images/test-bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+#what-our-clients-sayes h5{
+    color:#ff9222 ;
+    font-size: 14px;
+}
+#what-our-clients-sayes .carousel-inner{
+    overflow: visible;
+}
+#what-our-clients-sayes .carousel-caption{
+    position: initial;
+}
+#what-our-clients-sayes .carousel-indicators{
+    position: unset;
+}
+#what-our-clients-sayes .carousel-indicators li{
+    width:25px;
+    height:7px;
+    opacity: 1;
+    border-radius: 20px;
+}
+#what-our-clients-sayes .carousel-indicators li.active{
+ background-color: #ff9222 !important;
+ width:40px !important;
+    
+}
+=======
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+.latestBlog{
+}
+.latestBlog h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+}  
+.latestBlog .circleline{
+    width: 70px;
+    margin: auto;
+}
+.latestBlog  img{
+    width: 100%;
+}
+.latestBlog  .photo{
+    border-radius: 50%;
+} 
+.latestBlog  .dis h4 a{
+    font-family: Raleway, sans-serif;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.latestBlog  .dis h4 a:hover{
+    color:  #DA7E20;
+    transition: .8s;
+}
+.latestBlog  .border {
+    position: relative;
+}
+.latestBlog  .border .read{
+    position: absolute;
+    right: 20px;
+}
+.latestBlog  .border .read a{
+    color:#DA7E20 ;
+    text-decoration: underline;
+}
+=======
+
+body
+{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.ingredient-header h2
+{
+    font-size: 48px;
+}
+.content-img
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.content-right .content-img
+{
+    transform: translateX(230px);
+}
+.content-right h4
+{
+    transform: translateX(180px) ;
+}
+.content-right p
+{
+    width: 100%;
+}
+#ingredient
+{
+    background-color: #fff2e5;
+}
+span
+{
+position: relative;
+color: #b5b5b5;
+}
+span::after
+{
+content: "";
+background-color:#b5b5b5;
+position: absolute;
+top:50%;
+left: 5%;
+width: 100%;
+height:2px ;
+}
+.Supplement-right a
+{
+    font-size: 24px;
+    color: black;
+}
+
+.btn
+{
+    bottom: 150%;
+    left: 40%;
+    display: none;
+    color: #a39fb4;
+    background-color: #ffffff;
+
+}
+.Supplement-right:hover .btn 
+{
+ display: flex;
+ background-color: #ff9222;
+}
+.Supplement-content a
+{
+ color: black;
+ text-decoration: none;
+
+}
+.Supplement-right:hover a
+{
+ 
+ color: #ff9222;
+
+}
+.carousel-indicators 
+{
+    bottom: -10%;
+}
+.carousel-indicators li 
+{
+    background-color: #282f35;
+}
+.carousel-indicators li:hover
+{
+  background-color: #ff9222;
+  width: 50px;
+  height: 7px;
+  border-radius: 40%;
+  
+}
+
+
+/*Services start*/
+.services-item
+{
+    border: solid 2px #fff2e5;
+}
+.services-item:hover
+{
+    background-color: #fff2e5;
+}
+.services-item:hover .services-icon
+{
+    background-color: #fff;
+}
+
+.services-icon
+{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #fff2e5;
+}
+.services-icon .fas
+{
+    font-size: 35px;
+    color: #ff9222;
+}
+/*Services end*/
+
+
+
+
+
