@@ -1,4 +1,54 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+.latestBlog{
+}
+.latestBlog h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+}  
+.latestBlog .circleline{
+    width: 70px;
+    margin: auto;
+}
+.latestBlog  img{
+    width: 100%;
+}
+.latestBlog  .photo{
+    border-radius: 50%;
+} 
+.latestBlog  .dis h4 a{
+    font-family: Raleway, sans-serif;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.latestBlog  .dis h4 a:hover{
+    color:  #DA7E20;
+    transition: .8s;
+}
+.latestBlog  .border {
+    position: relative;
+}
+.latestBlog  .border .read{
+    position: absolute;
+    right: 20px;
+}
+.latestBlog  .border .read a{
+    color:#DA7E20 ;
+    text-decoration: underline;
+}
+=======
+
 body
 {
     box-sizing: border-box;
@@ -126,5 +176,6 @@ height:2px ;
     color: #ff9222;
 }
 /*Services end*/
+
 
 
