@@ -1,5 +1,9 @@
 
 
+
+/*contact start*/
+.contactus-inner
+=======
 .Product-Gallery .active-btn
 {
     background: #ff9222;
@@ -259,31 +263,29 @@ height:2px ;
 
 /*Services start*/
 .services-item
+
 {
-    border: solid 2px #fff2e5;
+    background-color: rgb(87, 58, 189);
 }
-.services-item:hover
+.contactus input
 {
-    background-color: #fff2e5;
+    border-radius: 10px;
 }
-.services-item:hover .services-icon
+.contactus textarea
 {
-    background-color: #fff;
+    border-radius: 10px;
+}
+.contactus button
+{
+    background: #ff9222;
+    color: white;
+    border-radius: 30px;
 }
 
-.services-icon
-{
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-    background-color: #fff2e5;
-}
-.services-icon .fas
-{
-    font-size: 35px;
-    color: #ff9222;
-}
+/*contact end*/
+=======
 /*Services end*/
+
 
 
 
